@@ -205,3 +205,31 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# =========================
+# Terraform
+# =========================
+
+# Local .terraform directories
+.terraform/
+
+# Terraform state files (sensitive)
+*.tfstate
+*.tfstate.*
+
+# Crash logs
+crash.log
+
+# Terraform variable files (often contain secrets)
+*.tfvars
+*.tfvars.json
+
+# Override files (local-only configs)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# CLI config files (optional, if used locally)
+.terraformrc
+terraform.rc
