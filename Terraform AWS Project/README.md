@@ -64,8 +64,8 @@ VISIO doesn't just list objects; it understands the scene. Using **Amazon Rekogn
 ### Steps to Deploy
 1. **Clone the Repository:**
    ```bash
-   git clone <your-repo-url>
-   cd VISIO
+   git clone https://github.com/NaveenHashira/IaC-Projects.git
+   cd Terraform AWS Project
    ```
 
 2. **Initialize Infrastructure:**
